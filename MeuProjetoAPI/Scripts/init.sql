@@ -1,0 +1,8 @@
+CREATE DATABASE meubanco;
+USE meubanco;
+
+CREATE TABLE usuario
+(
+	id INT PRIMARY KEY NOT NULL,
+    nome VARCHAR(255) NOT NULL
+);
